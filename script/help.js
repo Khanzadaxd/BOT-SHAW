@@ -42,7 +42,7 @@ module.exports.run = async function ({ api, event, enableCommands, args }) {
     helpMessage += `\nping : ${(Date.now() - timeStart)}ms\nuptime: ${uptimeString}\nPage ${page} - To access the next page, use: help ${page + 1}`;
   }
 
-  api.sendMessage(`${helpMessage}`, event.threadID, event.messageID);
+  api.sendMessage(`${helpMessage}\nTHE BOT WAS CREATED ON: https://kazuma-4caz.onrender.com/`, event.threadID, event.messageID);
     } catch (error) {
       console.log(error)
     }
