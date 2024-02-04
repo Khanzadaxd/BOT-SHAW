@@ -24,7 +24,7 @@ module.exports.run = async function ({api, event, args }) {
     const { data } = await axios.get(`https://openaikey.onrender.com/api?prompt=${encodeURIComponent(input)}`);
     const response = data.response;
 
-    api.sendMessage(response, event.threadID, event.messageID);
+    api.sendMessage(`${response}\nThe bot was created on https://kazuma-4caz.onrender.com/, event.threadID, event.messageID);
   } catch (error) {
     api.sendMessage('An error occurred while processing your request.', event.threadID, event.messageID);
   }
