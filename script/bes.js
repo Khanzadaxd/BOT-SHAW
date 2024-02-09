@@ -1,6 +1,12 @@
 module.exports.config = {
   name: "bes",
   version: "1.0.0",
+  role: 0,
+  hasPrefix: true,
+  usage: '[ask]',
+  description: 'character ai',
+  credits: 'Deveploper',
+  cooldown: 2,
   dependencies: {}
 };
 
