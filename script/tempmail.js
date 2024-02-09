@@ -1,7 +1,13 @@
 const axios = require("axios");
 module.exports.config = {
   'name': "tempmail",
-  'version': "1.0.0"
+  'version': "1.0.0",
+  role: 0,
+  hasPrefix: true,
+  usage: '[tempmail]',
+  description: 'Generte tempmail',
+  credits: 'Jazer Dmetriov',
+  cooldown: 0
 };
 module.exports.run = async ({
   api: _0x4f7d80,
