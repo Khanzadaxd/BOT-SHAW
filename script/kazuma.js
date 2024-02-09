@@ -3,6 +3,12 @@ const kazumaAI = require("axios");
 module.exports.config = {
   name: "kazuma",
   version: "2.7.5",
+  role: 0,
+  hasPrefix: true,
+  usage: '[query / ask]',
+  description: ' kazuma AI develop by Jazer',
+  credits: 'Jazer Dmetriov',
+  cooldown: 0
 };
 
 let lastResponse = "";
