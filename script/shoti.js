@@ -1,6 +1,12 @@
 module.exports.config = {
   name: "shoti",
   version: "1.0.0",
+  role: 0,
+  hasPrefix: true,
+  usage: '[ shoti ]',
+  description: 'Generate random TikTok girls',
+  credits: 'Deveploper',
+  cooldown: 10,
   dependencies: [],
 };
 
