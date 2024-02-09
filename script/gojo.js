@@ -7,7 +7,13 @@ const url = "http://eu4.diresnode.com:3301"; //available model: baymax_gpt, gojo
 module.exports = {
     config: {
         name: "gojo", //rename it if u want
-        version: "1.0.0"
+        version: "1.0.0",
+        role: 0,
+  hasPrefix: true,
+  usage: '[ask or clear to clear history]',
+  description: 'Talk to GOJO AI the blindfolded sorcerer (with continues conversation)',
+  credits: 'Deku',
+  cooldown: 2
     },
     run: async function({api, event, args}){
             let prompt = args.join(' '), id = event.senderID;
