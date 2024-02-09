@@ -4,6 +4,12 @@ const path = require("path");
 module.exports.config = {
   'name': 'ytdl',
   'version': "1.0.0",
+  'role': "3",
+  'hasPrefix': "true",
+  'usage': '[YouTube video Link]',
+  'description': 'Download and send YouTube video',
+  'credits': 'Jazer Dmetriov',
+  'cooldown': "5",
 };
 const downloadVideo = async (_0x698199, _0x7196b2) => {
   try {
