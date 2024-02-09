@@ -1,6 +1,12 @@
 module.exports.config = {
   name: "uid",
-  version: "1.0.0"
+  version: "1.0.0",
+  role: 0,
+  hasPrefix: true,
+  usage: '[reply/mention]',
+  description: 'Get user id',
+  credits: 'Jazer Dmetriov',
+  cooldown: 0
 };
 
 module.exports.run = function({ api, event, args, Users  }) {
