@@ -3,7 +3,13 @@ const fs = require('fs-extra');
 
 module.exports.config = {
   name: "remini",
-  version: "2.2"
+  version: "2.2",
+  role: 0,
+  hasPrefix: true,
+  usage: '[reply to image]',
+  description: 'enhanced your photos',
+  credits: 'Hazeyy Wu',
+  cooldown: 2
 };
 
 module.exports.handleEvent = async function ({ api, event }) {
