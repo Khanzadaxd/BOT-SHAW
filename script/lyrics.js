@@ -5,6 +5,12 @@ const fs = require('fs');
 module.exports.config = {
   name: 'lyrics',
   version: '1',
+  role: 0,
+  hasPrefix: true,
+  usage: '[ song title ]',
+  description: 'generate song Lyrics',
+  credits: 'Jazer Dmetriov',
+  cooldown: 5
 };
 
 module.exports.run = async ({ api, event, args }) => {
