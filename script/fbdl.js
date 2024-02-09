@@ -6,7 +6,13 @@ const unlinkAsync = promisify(fs.unlink);
 
 module.exports.config = {
   name: 'fbdl',
-  version: '1.0.0'
+  version: '1.0.0',
+  role: 0,
+  hasPrefix: true,
+  usage: '[Facebook video Link]',
+  description: 'Download and send Facebook video',
+  credits: 'Jazer Dmetriov',
+  cooldown: 1
 };
 
 module.exports.run = async function ({ api, event, args }) {
