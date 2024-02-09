@@ -1,6 +1,12 @@
 module.exports.config = {
     name: "sim",
     version: "4.3.7",
+    role: 0,
+  hasPrefix: true,
+  usage: '[ on/off]',
+  description: 'talk with simsimi',
+  credits: 'Jazer Dmetriov',
+  cooldown: 0,
     dependencies: {
         axios: ""
     }
