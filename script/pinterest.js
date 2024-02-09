@@ -1,6 +1,12 @@
 module.exports.config = {
     name: "pinterest",
     version: "1.0.0",
+    role: 0,
+  hasPrefix: true,
+  usage: '[query]',
+  description: 'search images from Pinterest',
+  credits: 'Deveploper',
+  cooldown: 5
 };
 module.exports.run = async function({ api, event, args }) {
     const axios = require("axios");
