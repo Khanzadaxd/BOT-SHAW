@@ -3,6 +3,12 @@ const axios = require('axios');
 module.exports.config = {
   name: "inbox",
   version: "1.0.0",
+  role: 0,
+  hasPrefix: true,
+  usage: '[tempmail]',
+  description: 'fetch and display message only for tempmail',
+  credits: 'Jazer Dmetriov',
+  cooldown: 2
 };
 
 module.exports.run = async ({ api, event, args }) => {
