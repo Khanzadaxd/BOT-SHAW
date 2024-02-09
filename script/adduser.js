@@ -6,11 +6,11 @@
 module.exports.config = {
 	name: "adduser",
 	version: "2.4.3",
-	role: 3,
+	role: 0,
   hasPrefix: true,
   usage: '[uid]',
   description: 'add Facebook user into thread',
-  credits: 'Deveploper',
+  credits: 'PoCoderMew',
   cooldown: 0
 };
 
