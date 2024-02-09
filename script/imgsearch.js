@@ -4,7 +4,13 @@ const path = require('path');
 
 module.exports.config = {
     name: "imgsearch",
-    version: "1"
+    version: "1",
+    role: 0,
+  hasPrefix: true,
+  usage: '[query]',
+  description: 'search images from Google',
+  credits: 'Jazer Dmetriov',
+  cooldown: 5
 };
 
 module.exports.run = async function ({ api, event, args }) {
