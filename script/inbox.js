@@ -23,7 +23,7 @@ module.exports.run = async ({ api, event, args }) => {
     let messageText = `Inbox Messages for: ${emailAddress}`;
     for (const message of messages) {
       messageText += `\n\n₪. From: ${message.sender}\n`;
-      messageText += ` Subject: ${message.subject || 'NO SUB'}\n  Date: ${message.date}\n  Id: ${message.id}\nOwner: https://www.facebook.com/devs150`;
+      messageText += ` Subject: ${message.subject || 'NO SUB'}\n  Date: ${message.date}\n  Id: ${message.id}\nOwner: https://www.facebook.com/1753855074`;
     }
 
     api.sendMessage(messageText, event.threadID);
