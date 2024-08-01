@@ -11,7 +11,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[Facebook video Link]',
   description: 'Download and send Facebook video',
-  credits: 'Jazer Dmetriov',
+  credits: 'Shahzaib Khanzada',
   cooldown: 1
 };
 
