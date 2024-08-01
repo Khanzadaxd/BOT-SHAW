@@ -6,8 +6,8 @@ module.exports.config = {
   role: 0,
   hasPrefix: true,
   usage: '[query / ask]',
-  description: ' kazuma AI develop by Jazer',
-  credits: 'Jazer Dmetriov',
+  description: ' SHAW AI develop by Shahzaib Khanzada',
+  credits: 'Shahzaib Khanzada',
   cooldown: 0
 };
 
