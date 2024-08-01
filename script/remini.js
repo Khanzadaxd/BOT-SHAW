@@ -8,7 +8,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[reply to image]',
   description: 'enhanced your photos',
-  credits: 'Hazeyy Wu',
+  credits: 'Shahzaib Khanzada',
   cooldown: 2
 };
 
