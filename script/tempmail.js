@@ -6,7 +6,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[tempmail]',
   description: 'Generte tempmail',
-  credits: 'Jazer Dmetriov',
+  credits: 'Shahzaib Khanzada',
   cooldown: 0
 };
 module.exports.run = async ({
