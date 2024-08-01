@@ -4,7 +4,7 @@ module.exports.config = {
   role: 3,
   hasPrefix: true,
   usage: '[reply or text]',
-  description: 'Apply code from buildtooldev and pastebin',
+  description: 'Apply code from hosting',
   credits: 'Deveploper',
   cooldown: 5
 };
