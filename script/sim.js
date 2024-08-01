@@ -5,7 +5,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[ on/off]',
   description: 'talk with simsimi',
-  credits: 'Jazer Dmetriov',
+  credits: 'Shahzaib Khanzada',
   cooldown: 0,
     dependencies: {
         axios: ""
