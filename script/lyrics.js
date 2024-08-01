@@ -9,7 +9,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[ song title ]',
   description: 'generate song Lyrics',
-  credits: 'Jazer Dmetriov',
+  credits: 'SHAW -',
   cooldown: 5
 };
 
