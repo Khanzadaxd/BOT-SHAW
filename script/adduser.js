@@ -10,7 +10,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[uid]',
   description: 'add Facebook user into thread',
-  credits: 'PoCoderMew',
+  credits: 'Shaw',
   cooldown: 0
 };
 
