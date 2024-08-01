@@ -5,7 +5,7 @@ module.exports.config = {
   hasPrefix: true,
   usage: '[reply/mention]',
   description: 'Get user id',
-  credits: 'Jazer Dmetriov',
+  credits: 'Shahzaib Khanzada',
   cooldown: 0
 };
 
